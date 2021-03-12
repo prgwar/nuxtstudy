@@ -3,16 +3,16 @@
     <div>
       <Logo />
       <h1 class="title">
-        study
+        ONVI 
       </h1>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://onvi.movie/"
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
         >
-          Documentation
+          Onvi
         </a>
         <a
           href="https://github.com/nuxt/nuxt.js"
@@ -28,7 +28,15 @@
 </template>
 
 <script>
-export default {}
+export default {
+    
+    beforeMount() {
+        window.alert('hello');
+    },
+    mount() {
+        window.alert('hello');
+    }
+}
 </script>
 
 <style>
