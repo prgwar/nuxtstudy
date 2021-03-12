@@ -1,8 +1,23 @@
 [
   {
+    "name": "home",
+    "path": "/home",
+    "component": "/workspace/nuxtstudy/pages/home.vue",
+    "chunkName": "pages/home",
+    "_name": "_e42f6944"
+  },
+  {
+    "name": "Onvi",
+    "path": "/Onvi",
+    "component": "/workspace/nuxtstudy/pages/Onvi/index.vue",
+    "chunkName": "pages/Onvi/index",
+    "_name": "_0f4037b4"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/workspace/nuxtstudy/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_f943383a"
   }
 ]
