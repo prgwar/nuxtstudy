@@ -7,11 +7,25 @@
     "_name": "_e42f6944"
   },
   {
+    "name": "login",
+    "path": "/login",
+    "component": "/workspace/nuxtstudy/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_4d0606fa"
+  },
+  {
     "name": "Onvi",
     "path": "/Onvi",
     "component": "/workspace/nuxtstudy/pages/Onvi/index.vue",
     "chunkName": "pages/Onvi/index",
     "_name": "_0f4037b4"
+  },
+  {
+    "name": "secret",
+    "path": "/secret",
+    "component": "/workspace/nuxtstudy/pages/secret.vue",
+    "chunkName": "pages/secret",
+    "_name": "_680216ef"
   },
   {
     "name": "index",

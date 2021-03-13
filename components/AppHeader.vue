@@ -3,13 +3,13 @@
   <h1 class="title"> Onvi movies </h1>
   <ul>
     <li>
-     <nuxt-link to="/"> Home</nuxt-link>
+     <NuxtLink to="/"> Home</NuxtLink>
      </li> 
       <li>
-     <nuxt-link to="/onvi"> ONVI</nuxt-link>
+     <NuxtLink to="/onvi"> ONVI</NuxtLink>
      </li> 
       <li>
-     <nuxt-link to="/home"> About</nuxt-link>
+     <NuxtLink to="/home"> About</NuxtLink>
      </li> 
      </ul>
      </header>
