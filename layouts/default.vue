@@ -16,6 +16,7 @@
 import AppHeader from "../components/AppHeader";
 import firebase from 'firebase'
 require('firebase/auth')
+import Cookies from 'js-cookie'
  export default {
      mounted() {
          this.setupFirebase();
@@ -34,10 +35,18 @@ require('firebase/auth')
               if(user) {
                   console.log('loggedIn');
                   this.loggedIn=true;
+                firebase
+                .auth()
+                .currentUser
+                .getIdToken(true)
+                .then(token => {
+                Cookies.set('access_token', token);
+                })
               }
               else {
                 console.log('logOut')
                 this.loggedIn = false;
+                Cookies.remove('access_token')
               }
           })
       },
