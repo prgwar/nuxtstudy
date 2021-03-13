@@ -16,10 +16,11 @@
 </template>
 
 <script>
-
-import * as firebase from 'firebase/app';
-import 'firebase/auth';
-export default {
+import firebase from 'firebase'
+require('firebase/auth')
+var provider = new firebase.auth.GoogleAuthProvider()
+export default  {
+    
     data() {
        return {
            email:'',
@@ -31,7 +32,7 @@ export default {
         pressed() {
            firebase
            .auth()
-           .signInWithEmailandPassword(this.email,this.password)
+           .signInWithEmailAndPassword(this.email,this.password)
            .then(data => {
                console.log(data)
                this.$router.push('/secret')
@@ -61,13 +62,13 @@ export default {
      flex-direction: column;
  }
 input {
-    width:40px;
+    width:300px;
     padding:20px;
     margin: 30px;
     font-size: 21px;
 }
 button {
-    width:40px;
+    width:200px;
     height:35px;
     font-size:100%;
 }

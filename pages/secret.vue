@@ -6,6 +6,8 @@
 </template>
 
 <script>
+import firebase from 'firebase'
+require('firebase/auth')
 export default {
 
 }
