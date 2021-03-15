@@ -13,7 +13,7 @@
         <div class="card-body">
 
             <ul class="list-group mt-5">
-             <li class="list-group-item"  v-for="(todo) in todos" :key="todo">{{todo}}</li>
+             <li class="list-group-item"  v-for="(todo,index) in todos" :key="todo"><a href="#" @click="removeTodo(index)">{{todo}}</a></li>
 
         <form @submit.prevent="sub">
           <div class="form-group mt-5">
@@ -39,11 +39,16 @@
 <script>
 export default {
     
-    data() {
-        return {
-            todo:'',
-            todos: ["movie","shortfilm","web series","content creator"]
+    computed:{
+        
+        todos(){
+
+         return this.$store.state.todos
         }
+    },
+    mounted() {
+      
+      // alert(this.$store.state.todos);
     },
     methods: {
         sub() {
@@ -51,8 +56,14 @@ export default {
             //alert(this.todo);
             if(this.todo)
             {
-                this.todos.push(this.todo);
+                //this.todos.push(this.todo);
+                this.$store.commit('addTodo', this.todo);
+                this.todo = ''
             }
+        },
+        removeTodo(index) {
+            //alert(index);
+            this.$delete(this.todos,index);
         }
     }
        
