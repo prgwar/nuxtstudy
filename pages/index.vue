@@ -38,7 +38,12 @@
 
 <script>
 export default {
-    
+
+    data() {
+        return {
+            todo:''
+        }
+    },
     computed:{
         
         todos(){
@@ -63,7 +68,8 @@ export default {
         },
         removeTodo(index) {
             //alert(index);
-            this.$delete(this.todos,index);
+            //this.$delete(this.todos,index);
+            this.$store.commit('removeTodo',index);
         }
     }
        
