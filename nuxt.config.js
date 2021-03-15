@@ -1,5 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+ 
   head: {
     title: 'study',
     htmlAttrs: {
@@ -33,10 +34,17 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [ 'bootstrap-vue/nuxt'
+   message: 'hello',
+  modules: [ 'bootstrap-vue/nuxt',
+           
+    '~/modules/hello',
+    // Passing options directly
+    ['~/modules/hello', { token: '123' }]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
+ 
 }
+

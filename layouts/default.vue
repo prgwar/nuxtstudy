@@ -5,7 +5,7 @@
            <nuxt-link to="/">Home</nuxt-link> #
             <div @click="logout" v-if="loggedIn" class="logout-link"> Logout</div>
            <nuxt-link to="login" v-else> Login </nuxt-link> #
-           <nuxt-link to="secret"> Secret </nuxt-link>#
+           <nuxt-link to="home"> Movie </nuxt-link>#
            
        </div>
    </div>

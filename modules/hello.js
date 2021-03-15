@@ -1,0 +1,12 @@
+export default function ExampleModule(moduleOptions) {
+  console.log(moduleOptions.token) // '123'
+  console.log(this.options.message) // 'hello'
+
+  this.nuxt.hook('ready', async nuxt => {
+    console.log('Nuxt is ready')
+  })
+}
+
+// REQUIRED if publishing the module as npm package
+module.exports.meta = require('../package.json')
+
