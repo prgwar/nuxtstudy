@@ -1,5 +1,8 @@
 {
-  "AppHeader": {
-    "description": "Auto imported from components/AppHeader.vue"
+  "Header": {
+    "description": "Auto imported from components/header/header.vue"
+  },
+  "HomeCovidhome": {
+    "description": "Auto imported from components/home/covidhome.vue"
   }
 }

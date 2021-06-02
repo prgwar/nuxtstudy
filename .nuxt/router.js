@@ -4,11 +4,8 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _e42f6944 = () => interopDefault(import('../pages/home.vue' /* webpackChunkName: "pages/home" */))
-const _4d0606fa = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
-const _0f4037b4 = () => interopDefault(import('../pages/Onvi/index.vue' /* webpackChunkName: "pages/Onvi/index" */))
-const _680216ef = () => interopDefault(import('../pages/secret.vue' /* webpackChunkName: "pages/secret" */))
-const _f943383a = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _092fe0fe = () => interopDefault(import('../pages/covid/covidtracker.vue' /* webpackChunkName: "pages/covid/covidtracker" */))
+const _3e6fb6c4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -22,24 +19,12 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/home",
-    component: _e42f6944,
-    name: "home"
-  }, {
-    path: "/login",
-    component: _4d0606fa,
-    name: "login"
-  }, {
-    path: "/Onvi",
-    component: _0f4037b4,
-    name: "Onvi"
-  }, {
-    path: "/secret",
-    component: _680216ef,
-    name: "secret"
+    path: "/covid/covidtracker",
+    component: _092fe0fe,
+    name: "covid-covidtracker"
   }, {
     path: "/",
-    component: _f943383a,
+    component: _3e6fb6c4,
     name: "index"
   }],
 
