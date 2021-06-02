@@ -6,5 +6,8 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<CountrySelect>` | `<country-select>` (components/countrySelect.vue)
+- `<DataBoxes>` | `<data-boxes>` (components/dataBoxes.vue)
+- `<DataTitle>` | `<data-title>` (components/dataTitle.vue)
 - `<Header>` | `<header>` (components/header/header.vue)
 - `<HomeCovidhome>` | `<home-covidhome>` (components/home/covidhome.vue)

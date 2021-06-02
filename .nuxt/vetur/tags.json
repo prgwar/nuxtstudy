@@ -1,4 +1,13 @@
 {
+  "CountrySelect": {
+    "description": "Auto imported from components/countrySelect.vue"
+  },
+  "DataBoxes": {
+    "description": "Auto imported from components/dataBoxes.vue"
+  },
+  "DataTitle": {
+    "description": "Auto imported from components/dataTitle.vue"
+  },
   "Header": {
     "description": "Auto imported from components/header/header.vue"
   },
