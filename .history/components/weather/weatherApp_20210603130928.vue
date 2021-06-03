@@ -1,0 +1,21 @@
+<template>
+  <div>
+   weather app
+   
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'weather',
+  data () {
+    return {
+    }
+  }
+
+}
+</script>
+
+<style>
+
+</style>

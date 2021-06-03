@@ -5,6 +5,7 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _092fe0fe = () => interopDefault(import('../pages/covid/covidtracker.vue' /* webpackChunkName: "pages/covid/covidtracker" */))
+const _74d24698 = () => interopDefault(import('../pages/weather/weatherpage.vue' /* webpackChunkName: "pages/weather/weatherpage" */))
 const _3e6fb6c4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -22,6 +23,10 @@ export const routerOptions = {
     path: "/covid/covidtracker",
     component: _092fe0fe,
     name: "covid-covidtracker"
+  }, {
+    path: "/weather/weatherpage",
+    component: _74d24698,
+    name: "weather-weatherpage"
   }, {
     path: "/",
     component: _3e6fb6c4,

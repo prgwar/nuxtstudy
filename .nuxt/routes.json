@@ -7,6 +7,13 @@
     "_name": "_092fe0fe"
   },
   {
+    "name": "weather-weatherpage",
+    "path": "/weather/weatherpage",
+    "component": "/workspaces/nuxtstudy/pages/weather/weatherpage.vue",
+    "chunkName": "pages/weather/weatherpage",
+    "_name": "_74d24698"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/workspaces/nuxtstudy/pages/index.vue",

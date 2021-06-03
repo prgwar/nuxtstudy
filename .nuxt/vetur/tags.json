@@ -1,17 +1,20 @@
 {
-  "CountrySelect": {
-    "description": "Auto imported from components/countrySelect.vue"
+  "HomeCovidhome": {
+    "description": "Auto imported from components/home/covidhome.vue"
   },
-  "DataBoxes": {
-    "description": "Auto imported from components/dataBoxes.vue"
+  "CovidtempCountrySelect": {
+    "description": "Auto imported from components/covidtemp/countrySelect.vue"
   },
-  "DataTitle": {
-    "description": "Auto imported from components/dataTitle.vue"
+  "CovidtempDataBoxes": {
+    "description": "Auto imported from components/covidtemp/dataBoxes.vue"
+  },
+  "CovidtempDataTitle": {
+    "description": "Auto imported from components/covidtemp/dataTitle.vue"
   },
   "Header": {
     "description": "Auto imported from components/header/header.vue"
   },
-  "HomeCovidhome": {
-    "description": "Auto imported from components/home/covidhome.vue"
+  "WeatherApp": {
+    "description": "Auto imported from components/weather/weatherApp.vue"
   }
 }
