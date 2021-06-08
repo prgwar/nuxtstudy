@@ -14,7 +14,25 @@
   "HomeCovidhome": {
     "description": "Auto imported from components/home/covidhome.vue"
   },
+  "WeatherClouds": {
+    "description": "Auto imported from components/weather/clouds.vue"
+  },
+  "WeatherCoordianates": {
+    "description": "Auto imported from components/weather/coordianates.vue"
+  },
+  "WeatherSun": {
+    "description": "Auto imported from components/weather/sun.vue"
+  },
+  "WeatherTemperature": {
+    "description": "Auto imported from components/weather/temperature.vue"
+  },
   "WeatherApp": {
     "description": "Auto imported from components/weather/weatherApp.vue"
+  },
+  "WeatherDisplay": {
+    "description": "Auto imported from components/weather/weatherDisplay.vue"
+  },
+  "WeatherWinds": {
+    "description": "Auto imported from components/weather/winds.vue"
   }
 }
