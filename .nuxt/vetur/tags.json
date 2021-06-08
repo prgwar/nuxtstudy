@@ -1,7 +1,4 @@
 {
-  "HomeCovidhome": {
-    "description": "Auto imported from components/home/covidhome.vue"
-  },
   "CovidtempCountrySelect": {
     "description": "Auto imported from components/covidtemp/countrySelect.vue"
   },
@@ -13,6 +10,9 @@
   },
   "Header": {
     "description": "Auto imported from components/header/header.vue"
+  },
+  "HomeCovidhome": {
+    "description": "Auto imported from components/home/covidhome.vue"
   },
   "WeatherApp": {
     "description": "Auto imported from components/weather/weatherApp.vue"
