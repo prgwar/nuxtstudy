@@ -3,6 +3,7 @@ export { default as CovidtempDataBoxes } from '../../components/covidtemp/dataBo
 export { default as CovidtempDataTitle } from '../../components/covidtemp/dataTitle.vue'
 export { default as Header } from '../../components/header/header.vue'
 export { default as HomeCovidhome } from '../../components/home/covidhome.vue'
+export { default as MusicPlayer } from '../../components/music/musicPlayer.vue'
 export { default as WeatherClouds } from '../../components/weather/clouds.vue'
 export { default as WeatherCoordianates } from '../../components/weather/coordianates.vue'
 export { default as WeatherSun } from '../../components/weather/sun.vue'
@@ -16,6 +17,7 @@ export const LazyCovidtempDataBoxes = import('../../components/covidtemp/dataBox
 export const LazyCovidtempDataTitle = import('../../components/covidtemp/dataTitle.vue' /* webpackChunkName: "components/covidtemp-data-title" */).then(c => c.default || c)
 export const LazyHeader = import('../../components/header/header.vue' /* webpackChunkName: "components/header" */).then(c => c.default || c)
 export const LazyHomeCovidhome = import('../../components/home/covidhome.vue' /* webpackChunkName: "components/home-covidhome" */).then(c => c.default || c)
+export const LazyMusicPlayer = import('../../components/music/musicPlayer.vue' /* webpackChunkName: "components/music-player" */).then(c => c.default || c)
 export const LazyWeatherClouds = import('../../components/weather/clouds.vue' /* webpackChunkName: "components/weather-clouds" */).then(c => c.default || c)
 export const LazyWeatherCoordianates = import('../../components/weather/coordianates.vue' /* webpackChunkName: "components/weather-coordianates" */).then(c => c.default || c)
 export const LazyWeatherSun = import('../../components/weather/sun.vue' /* webpackChunkName: "components/weather-sun" */).then(c => c.default || c)

@@ -7,6 +7,13 @@
     "_name": "_092fe0fe"
   },
   {
+    "name": "music-musicApp",
+    "path": "/music/musicApp",
+    "component": "/workspaces/nuxtstudy/pages/music/musicApp.vue",
+    "chunkName": "pages/music/musicApp",
+    "_name": "_2d6bfa4a"
+  },
+  {
     "name": "weather-weatherpage",
     "path": "/weather/weatherpage",
     "component": "/workspaces/nuxtstudy/pages/weather/weatherpage.vue",

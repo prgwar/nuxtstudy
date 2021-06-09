@@ -11,6 +11,7 @@ You can directly use them in pages and other components without the need to impo
 - `<CovidtempDataTitle>` | `<covidtemp-data-title>` (components/covidtemp/dataTitle.vue)
 - `<Header>` | `<header>` (components/header/header.vue)
 - `<HomeCovidhome>` | `<home-covidhome>` (components/home/covidhome.vue)
+- `<MusicPlayer>` | `<music-player>` (components/music/musicPlayer.vue)
 - `<WeatherClouds>` | `<weather-clouds>` (components/weather/clouds.vue)
 - `<WeatherCoordianates>` | `<weather-coordianates>` (components/weather/coordianates.vue)
 - `<WeatherSun>` | `<weather-sun>` (components/weather/sun.vue)

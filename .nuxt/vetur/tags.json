@@ -14,6 +14,9 @@
   "HomeCovidhome": {
     "description": "Auto imported from components/home/covidhome.vue"
   },
+  "MusicPlayer": {
+    "description": "Auto imported from components/music/musicPlayer.vue"
+  },
   "WeatherClouds": {
     "description": "Auto imported from components/weather/clouds.vue"
   },
